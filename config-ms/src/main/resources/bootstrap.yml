@@ -45,6 +45,7 @@ spring:
           enabled: false
   application:
     name: 'config-server'
-encrypt:
-  key: '*&3loa#@9no_0*(!'
+#注释加密
+#encrypt:
+#  key: '*&3loa#@9no_0*(!'
 
