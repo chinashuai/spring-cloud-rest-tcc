@@ -50,6 +50,10 @@ spring:
       fail-fast: true
   zipkin:
     base-url: 'http://zipkin_server:9411/'
+  sleuth:
+    sampler:
+      # 采样百分比，默认值是 0.1 也就是 10%，记录每一个调用
+      percentage: 1.0
 #encrypt:
 #  key: '*&3loa#@9no_0*(!'
 mybatis:
